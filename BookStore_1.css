@@ -1,0 +1,50 @@
+.backgroundImage {
+    background-image: url("bookCover.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative; /* Required for absolute positioning */
+}
+
+.storeHeading {
+    text-align: center;
+    position: absolute;
+    top: 40%; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* Text color */
+    font-size: 3em; /* Font size */
+    font-family: 'Comic', sans-serif; /* Font family */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+    letter-spacing: 2px; /* Letter spacing */
+}
+
+.storeHeading:hover {
+    color: #ffd700; /* Text color on hover */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+.buttonContainer {
+    text-align: center;
+    position: absolute;
+    top: 50%; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orderButton {
+    display: inline-block; /* Change from block to inline-block */
+    margin-top: 30px; /* Add margin to create space between heading and button */
+    padding: 10px 20px;
+    background-color: #136865;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.orderButton:hover {
+    background-color: #ff6347; /* Change background color on hover */
+}
